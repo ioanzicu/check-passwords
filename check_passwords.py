@@ -48,5 +48,6 @@ def main(args):
     return 'Done!'
 
 
-# python file.py password1, password2, ...
-main(sys.argv[1:])
+# Run python file.py password1, password2, ...
+if __name__ == '__main__':
+    sys.exit(main(sys.argv[1:]))
