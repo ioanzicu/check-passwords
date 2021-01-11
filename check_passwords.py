@@ -7,7 +7,7 @@ import sys
 
 # Hashing
 # - One way, we cannot know the initial data
-# - IDEMPOTENT - The same input has the same hash, modified input - new hash
+# - INDEMPOTENT - The same input has the same hash, modified input - new hash
 
 
 def request_api_data(query_char):
